@@ -1,14 +1,136 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: serif;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
 
+/*------------------------------------
+# Common
+------------------------------------ */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 2);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-3 {
+  --line-clam: 3;
+}
+
+.line-4 {
+  --line-clam: 4;
+}
+
+.work-break-all {
+  word-break: break-all;
+}
+
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 186px;
+  line-height: 68px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*-------------------------------------
+# Header styling
+------------------------------------- */
+.header {
+  padding: 52px 0 8px;
+}
+
+.header__fixed {
+  position: sticky;
+  top: -44px;
+  z-index: 1000;
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+}
+
+.header__navbar {
+  margin-left: auto;
+}
+
+.header__list {
+  display: flex;
+  gap: 39px;
+  margin-left: auto;
+}
+
+.header__link {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 12px 0;
+}
+
+.header__active,
+.header__link:hover {
+  text-shadow: 1px 0 0 black;
+}
+
+.header__cta {
+  margin-left: 177px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__signin {
+  color: #494949;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.header__signin:hover {
+  color: #1ebfc1;
+}
+
+.header__signup {
+  min-width: 108px;
+  line-height: 46px;
+  color: #1ebfc1;
+  background: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 1px solid #1ebfc1;
+}
+
+.header__signup:hover {
+  background: #1ebfc1;
+  color: #fff;
+}
