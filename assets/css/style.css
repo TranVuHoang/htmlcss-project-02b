@@ -680,3 +680,38 @@ li {
   bottom: 29px;
   right: 32px;
 }
+
+/*-------------------------------
+# Admit
+-------------------------------*/
+.admit {
+  margin-top: 100px;
+  padding: 76px 0 88px;
+  background: #def6f5;
+}
+
+.admit__body {
+  display: flex;
+}
+
+.admit__heading {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.admit__desc {
+  margin-top: 1.8rem;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.admit__btn {
+  margin-top: 20px;
+  margin-left: 410px;
+  border: none;
+  height: 68px;
+}
