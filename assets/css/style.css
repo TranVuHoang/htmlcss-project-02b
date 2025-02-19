@@ -63,6 +63,10 @@ li {
   font-weight: 600;
 }
 
+.btn:hover {
+  opacity: 0.9;
+}
+
 /*-------------------------------------
 # Header styling
 ------------------------------------- */
@@ -130,6 +134,7 @@ li {
   font-size: 1.6rem;
   font-weight: 600;
   border: 1px solid #1ebfc1;
+  border-radius: 6px;
 }
 
 .header__signup:hover {
@@ -631,6 +636,13 @@ li {
   color: #fff;
 }
 
+.feedback__item:hover {
+  cursor: pointer;
+  color: #2ac9bf;
+  background: #FFF;
+  border: 1px solid #2ac9bf;
+}
+
 .feedback__img {
   position: absolute;
   width: 78px;
@@ -716,6 +728,10 @@ li {
   height: 68px;
 }
 
+.admit__btn:hover {
+  cursor: pointer;
+}
+
 /*------------------------------------
 # Footer styling
 ------------------------------------*/
@@ -723,13 +739,13 @@ li {
   background-color: #fff;
 }
 
-.footer .row-top {
+.footer__row-top {
   padding: 131px 0 0;
   display: flex;
   justify-content: space-between;
 }
 
-.footer .title {
+.footer__title {
   /* color: #2e2e2e; */
   font-size: 1.8rem;
   font-weight: 500;
@@ -751,6 +767,10 @@ li {
   color: #535353;
   font-size: 1.6rem;
   line-height: normal;
+}
+
+.footer li a:hover {
+  text-decoration: underline;
 }
 
 .footer .list-item5 a {
