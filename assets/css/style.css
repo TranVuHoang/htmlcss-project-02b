@@ -219,7 +219,7 @@ li {
   background: #fefefd;
   box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
   width: 207px;
-  height: 90px
+  height: 90px;
 }
 
 .hero__sm1 {
@@ -293,4 +293,90 @@ li {
 
 .hero__student-4 {
   background: #bf83ff;
+}
+
+/*-------------------------------------
+# Feature section styling
+-------------------------------------*/
+.feature {
+  padding: 30px 0;
+  margin-top: 100px;
+}
+
+.feature__body {
+  width: 1024px;
+  min-width: calc(100% - 48px);
+}
+
+.feature__top {
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  width: 590px;
+}
+
+.feature__title {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.feature__heading {
+  color: #0d1111;
+  font-family: Poppins;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+}
+
+.feature__desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.feature__row {
+  margin-top: 80px;
+}
+
+.feature__list {
+  width: 559px;
+  display: flex;
+  gap: 200px;
+}
+
+.feature__item {
+  width: 225px;
+}
+
+.feature__btn {
+  width: 102px;
+  height: 106px;
+  border-radius: 18px;
+  background: #ffc147;
+  border: 1px solid transparent;
+}
+
+.feature__btn2 {
+  background: #ff947a;
+}
+.feature__btn3 {
+  background: #bf83ff;
+}
+
+.feature__item-heading {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.feature__item-desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69; /* 168.75% */
+  width: 223px;
 }
