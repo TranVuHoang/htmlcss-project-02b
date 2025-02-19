@@ -380,3 +380,142 @@ li {
   line-height: 1.69; /* 168.75% */
   width: 223px;
 }
+
+/*-----------------------------------------
+# Popular section styling
+/*-----------------------------------------*/
+.popular {
+  padding: 30px 0;
+  margin-top: 100px;
+  height: 800px;
+}
+
+.popular__body {
+}
+
+.popular__title {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.popular__heading {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.popular__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular__desc {
+  width: 525px;
+  margin-top: 19px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+}
+
+.popular__heading-3 {
+  color: #1ebfc1;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular__heading-3:hover {
+  text-decoration: underline;
+}
+
+.popular__row {
+  margin-top: 79px;
+}
+
+.popular__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 47px;
+}
+
+.popular__item {
+  position: relative;
+  width: 359px;
+}
+
+.popular__img {
+  position: absolute;
+  width: 359px;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.7;
+  background: #d0efed;
+  transition: 0.25s ease;
+}
+
+.popular__img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.popular__summary {
+  position: absolute;
+  left: 17px;
+  right: 17px;
+  top: 322px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+  padding: 18px 25px 29px;
+}
+
+.popular__sm-heading {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.popular__price {
+  margin-top: 16px;
+}
+
+.popular__number-sm {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.popular__number-lg {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.popular__sm-desc {
+  margin-top: 6px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.popular__sm-row {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: start;
+}
+
+.popular__dot {
+  width: 6px;
+  height: 6px;
+  background: #1ebfc1;
+  border-radius: 50%;
+}
