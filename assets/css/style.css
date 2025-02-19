@@ -558,3 +558,125 @@ li {
   font-weight: 400;
   line-height: normal;
 }
+
+/*--------------------------------
+# Feedback section styling
+/*--------------------------------*/
+.feedback {
+  padding: 30px 0;
+  margin-top: 204px;
+}
+
+.feedback__body {
+  position: relative;
+}
+
+.feedback__content {
+  width: 419px;
+  padding-top: 27px;
+}
+
+.feedback__icon {
+  width: 36px;
+  height: 29px;
+}
+
+.feedback__desc {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+}
+
+.feedback__row {
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.feedback__rectangle {
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+
+.feedback__name {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.feedback__st {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.feedback__control {
+  margin-top: 52px;
+  display: flex;
+  gap: 30px;
+}
+
+.feedback__item {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: #2ac9bf;
+  color: #fff;
+}
+
+.feedback__img {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback--avt1 {
+  width: 92px;
+  height: 92px;
+  top: 0;
+  right: 443px;
+  background: #1ebfc1;
+}
+
+.feedback--avt2 {
+  width: 110px;
+  height: 110px;
+  background: #bf83ff;
+  top: 19px;
+  right: 0;
+}
+
+.feedback--avt3 {
+  width: 235px;
+  height: 235px;
+  background: #ff8282;
+  top: 107px;
+  right: 171px;
+}
+
+.feedback--avt4 {
+  top: 259px;
+  left: 491px;
+  background: #ffc147;
+}
+
+.feedback--avt5 {
+  background: #ff947a;
+  bottom: 0;
+  right: 389px;
+}
+
+.feedback--avt6 {
+  background: #b1dfdc;
+  bottom: 29px;
+  right: 32px;
+}
